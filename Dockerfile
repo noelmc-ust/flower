@@ -6,4 +6,4 @@ ENV MONGO_URI=mongodb://mongodb:27017/AFF-Docker
 ENV PORT=3015
 COPY . . 
 EXPOSE 3015
-CMD [ "node" "app.js" ]
+CMD [ "node" , "app.js" ]
